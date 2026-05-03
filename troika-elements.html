@@ -5,6 +5,34 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Troika — UI Elements</title>
   <style>
+@font-face {
+  font-family: 'NoeDisplay';
+  src: url('fonts/NoeDisplay-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Thicccboi';
+  src: url('fonts/THICCCBOI-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Thicccboi';
+  src: url('fonts/THICCCBOI-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Thicccboi';
+  src: url('fonts/THICCCBOI-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
 * { margin: 0; padding: 0; box-sizing: border-box; }
 
 :root {
@@ -24,7 +52,7 @@
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-family: 'Thicccboi', -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
   background: var(--bg);
   color: var(--text);
   line-height: 1.6;
@@ -773,7 +801,7 @@ body {
     <div style="display:flex;flex-direction:column;gap:16px">
       <div><span class="spec-line"><b>Page title</b> 18px / 600 / system-ui</span><div style="font-size:18px;font-weight:600;margin-top:4px">Times Square Dashboard</div></div>
       <div><span class="spec-line"><b>Section header</b> 14px / 600 / uppercase / 0.5px tracking</span><div style="font-size:14px;font-weight:600;text-transform:uppercase;letter-spacing:0.5px;color:var(--text-dim);margin-top:4px">TROIKA PROJECTS</div></div>
-      <div><span class="spec-line"><b>Heading (Voxfiles)</b> 22px / 700 / NoeDisplay Bold</span><div style="font-size:22px;font-weight:700;margin-top:4px">Oversigt</div></div>
+      <div><span class="spec-line"><b>Heading (Voxfiles)</b> 22px / 700 / NoeDisplay Bold</span><div style="font-size:22px;font-weight:700;font-family:'NoeDisplay',serif;margin-top:4px">Oversigt</div></div>
       <div><span class="spec-line"><b>Body</b> 13–14px / 400</span><div style="font-size:14px;margin-top:4px">Mobil webapp til taleoptagelse med intelligent transkription</div></div>
       <div><span class="spec-line"><b>Meta/small</b> 11–12px / --text-dim</span><div style="font-size:12px;color:var(--text-dim);margin-top:4px">Last deployed: 3h ago · v0.5.42</div></div>
       <div><span class="spec-line"><b>Monospace</b> SF Mono, Monaco</span><div style="font-size:13px;font-family:var(--font-mono);color:var(--text-dim);margin-top:4px">troika-voxfiles.troika.workers.dev</div></div>
